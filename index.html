@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>Clicker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="counter" aria-label="Session click counter">
+      <output id="count" aria-label="Clicks this session" aria-live="polite" aria-atomic="true">0</output>
+      <button id="click-button" type="button">Click me <span aria-hidden="true">↗</span></button>
+      <button id="reset-button" type="button" disabled><span aria-hidden="true">↺</span> Reset count</button>
+    </section>
+  </main>
+</body>
+</html>
